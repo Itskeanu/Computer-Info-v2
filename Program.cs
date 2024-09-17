@@ -6,7 +6,7 @@ namespace Computer_Info
     internal class Program
     {
 
-        static void netstat()
+        static void Netstat()
         {
             Process ipconfig = new Process();
             ipconfig.StartInfo.FileName = "ipconfig";
@@ -33,7 +33,7 @@ namespace Computer_Info
 
         }
 
-        static void hostname()
+        static void Hostname()
         {
             Process hostname = new Process();
             hostname.StartInfo.FileName = "hostname";
@@ -49,7 +49,7 @@ namespace Computer_Info
             Console.WriteLine("De hostname: " + resulth.Trim());
         }
 
-        static void drive()
+        static void Drive()
         {
             Console.WriteLine("Hard Drive informatie: Functie nog niet gemaakt.");
         }
@@ -89,15 +89,15 @@ namespace Computer_Info
                 switch (inputChar)
                 {
                     case '1':
-                        netstat();
+                        Netstat();
                         break;
 
                     case '2':
-                        drive();
+                        Drive();
                         break;
 
                     case '3':
-                        hostname();
+                        Hostname();
                         break;
 
                     //case '4':

@@ -48,6 +48,11 @@ namespace Computer_Info
 
             Console.WriteLine("De hostname: " + resulth.Trim());
         }
+
+        static void drive()
+        {
+            Console.WriteLine("Hard Drive informatie: Functie nog niet gemaakt.");
+        }
         private static void Main(string[] args)
         {
             bool exit = false;
@@ -88,7 +93,7 @@ namespace Computer_Info
                         break;
 
                     case '2':
-                        Console.WriteLine("Hard Drive informatie: Functie nog niet gemaakt.");
+                        drive();
                         break;
 
                     case '3':

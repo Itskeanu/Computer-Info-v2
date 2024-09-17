@@ -1225,26 +1225,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\keanu\\.nuget\\packages\\": {}
+    "/Users/laurenskosters/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Oriënterend\\ICT & Software Engineering\\Opdrachten\\Computer Info\\Computer Info.csproj",
+      "projectUniqueName": "/Users/laurenskosters/RiderProjects/Computer-Info-v2/Computer Info.csproj",
       "projectName": "Computer Info",
-      "projectPath": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Oriënterend\\ICT & Software Engineering\\Opdrachten\\Computer Info\\Computer Info.csproj",
-      "packagesPath": "C:\\Users\\keanu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Oriënterend\\ICT & Software Engineering\\Opdrachten\\Computer Info\\obj\\",
+      "projectPath": "/Users/laurenskosters/RiderProjects/Computer-Info-v2/Computer Info.csproj",
+      "packagesPath": "/Users/laurenskosters/.nuget/packages/",
+      "outputPath": "/Users/laurenskosters/RiderProjects/Computer-Info-v2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\keanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/laurenskosters/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1293,7 +1291,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/laurenskosters/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

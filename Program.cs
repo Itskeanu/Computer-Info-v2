@@ -1,86 +1,29 @@
 ﻿using System;
-using System.Diagnostics;
 
-namespace Computer_Info
+namespace Gambling_Game
 {
     internal class Program
     {
-
-        static void netstat()
+        static void Main(string[] args)
         {
-            Process ipconfig = new Process();
-            ipconfig.StartInfo.FileName = "ipconfig";
-            ipconfig.StartInfo.Arguments = "/all";
-            ipconfig.StartInfo.RedirectStandardOutput = true;
-            ipconfig.StartInfo.UseShellExecute = false;
-            ipconfig.StartInfo.CreateNoWindow = true;
-
-            // Start het process
-            ipconfig.Start();
-
-            // Lees de output van het process
-            string result = ipconfig.StandardOutput.ReadToEnd();
-            ipconfig.WaitForExit();
-
-            // Maak de output zichtbaar.
-            foreach (var line in result.Split(new[] { Environment.NewLine }, StringSplitOptions.None))
-            {
-                if (line.Contains("IPv4 Address") || line.Contains("IPv6 Address") || line.Contains("Subnet Mask") || line.Contains("DNS Server") || line.Contains("Physical Address"))
-                {
-                    Console.WriteLine("Netstat: " + line.Trim());
-                }
-            }
-
-        }
-
-        static void hostname()
-        {
-            Process hostname = new Process();
-            hostname.StartInfo.FileName = "hostname";
-            hostname.StartInfo.RedirectStandardOutput = true;
-            hostname.StartInfo.UseShellExecute = false;
-            hostname.StartInfo.CreateNoWindow = true;
-
-            hostname.Start();
-
-            string resulth = hostname.StandardOutput.ReadToEnd();
-            hostname.WaitForExit();
-
-            Console.WriteLine("De hostname: " + resulth.Trim());
-        }
-
-        static void drive()
-        {
-            Console.WriteLine("Hard Drive informatie: Functie nog niet gemaakt.");
-        }
-        private static void Main(string[] args)
-        {
+            // Player starts with 100 points
+            int points = 100;
             bool exit = false;
 
             while (!exit)
             {
-                // Groet gebruiker, En geef informatie.
-                Console.WriteLine("Hallo Gebruiker,");
-                Console.WriteLine("\nU hebt dit script geinstalleerd om informatie op te vragen over uw device op een makkelijkere en snellere manier.");
+                // Clear console for a fresh start each round
+                Console.Clear();
 
-                // Geef de keuzes weer
-                //string A = "1. Netstat (Ip Address (IPV4) / (IPV6), DNS Address, MAC Address, Subnet Mask)";
-                //string B = "2. Hard Drive informatie";
-                //string C = "3. Hostname (Naam van de laptop)";
-                //string D = "4. Test optie";
-                //string E = "9. Exit";
+                // Greet the player and display their current points
+                Console.WriteLine("Welkom bij het gokspel!");
+                Console.WriteLine($"Je huidige punten: {points}");
 
-                string[] keuze = { "\nMaak nu uw keuze:\n", "1. Netstat (Ip Address (IPV4) / (IPV6), DNS Address, MAC Address, Subnet Mask);\n", "2. Hard Drive informatie\n", "3. Hostname (Naam van de laptop\n", "9. Exit\n" };
-
-                foreach (string i in keuze)
-                {
-
-                    //Console.WriteLine("\nMaak nu uw keuze:\n");
-                    //Console.WriteLine(A + "    |    " + B);
-                    //Console.WriteLine(C + "    |    ");//D);
-                    Console.WriteLine(i);
-
-                }
+                // Display the main menu
+                Console.WriteLine("\nMaak nu uw keuze:\n");
+                Console.WriteLine("1. Speel het gokspel (Raad een nummer tussen 1 en 10)");
+                Console.WriteLine("2. Bekijk je punten");
+                Console.WriteLine("9. Exit\n");
 
                 // Get user input
                 ConsoleKeyInfo keyInfo = Console.ReadKey(true);
@@ -89,25 +32,19 @@ namespace Computer_Info
                 switch (inputChar)
                 {
                     case '1':
-                        netstat();
+                        // Play the gambling game
+                        points = PlayGamblingGame(points);
                         break;
 
                     case '2':
-                        drive();
+                        // Show current points
+                        Console.WriteLine($"\nJe hebt {points} punten.");
                         break;
-
-                    case '3':
-                        hostname();
-                        break;
-
-                    //case '4':
-                    //Console.WriteLine("Onbekend wat ik hier ga maken");
-                    //break;
 
                     case '9':
-                        // Exit de loop
+                        // Exit the game
                         exit = true;
-                        Console.WriteLine("Script wordt afgesloten! Bedankt voor het gebruiken.");
+                        Console.WriteLine("Bedankt voor het spelen! Tot ziens.");
                         break;
 
                     default:
@@ -115,10 +52,80 @@ namespace Computer_Info
                         break;
                 }
 
-                // Wacht tot de gebruik een knop heeft ingedrukt om het menu opnieuw zichtbaar te maken
-                Console.WriteLine("\nDruk op een toets om verder te gaan...");
-                Console.ReadKey();
-                Console.Clear();
+                // Wait before showing the menu again
+                if (!exit)
+                {
+                    Console.WriteLine("\nDruk op een toets om verder te gaan...");
+                    Console.ReadKey();
+                }
+            }
+        }
+
+        // Method to play the gambling game
+        static int PlayGamblingGame(int currentPoints)
+        {
+            Console.Clear();
+            Console.WriteLine("Welkom bij het gokspel!");
+            Console.WriteLine($"Je huidige punten: {currentPoints}");
+
+            // Ask how many points the user wants to bet
+            Console.Write("\nHoeveel punten wil je inzetten? ");
+            int bet = GetBetAmount(currentPoints);
+
+            // Ask the user to guess a number between 1 and 10
+            Console.Write("Raad een nummer tussen 1 en 10: ");
+            int userGuess = GetNumberBetween1And10();
+
+            // Generate a random number between 1 and 10
+            Random random = new Random();
+            int randomNumber = random.Next(1, 11); // 1 to 10
+
+            // Show the randomly generated number
+            Console.WriteLine($"Het geluksnummer was: {randomNumber}");
+
+            // Determine if the user wins or loses
+            if (userGuess == randomNumber)
+            {
+                Console.WriteLine("Gefeliciteerd! Je hebt gewonnen!");
+                currentPoints += bet; // Add bet to current points
+            }
+            else
+            {
+                Console.WriteLine("Helaas, je hebt verloren.");
+                currentPoints -= bet; // Subtract bet from current points
+            }
+
+            // Return the updated points
+            return currentPoints;
+        }
+
+        // Helper method to get a valid bet amount from the user
+        static int GetBetAmount(int currentPoints)
+        {
+            int bet;
+            while (true)
+            {
+                string betInput = Console.ReadLine();
+                if (int.TryParse(betInput, out bet) && bet > 0 && bet <= currentPoints)
+                {
+                    return bet; // Valid bet
+                }
+                Console.Write($"Ongeldig bedrag. Je kunt inzetten tussen 1 en {currentPoints}: ");
+            }
+        }
+
+        // Helper method to get a valid number between 1 and 10 from the user
+        static int GetNumberBetween1And10()
+        {
+            int guess;
+            while (true)
+            {
+                string guessInput = Console.ReadLine();
+                if (int.TryParse(guessInput, out guess) && guess >= 1 && guess <= 10)
+                {
+                    return guess; // Valid guess
+                }
+                Console.Write("Ongeldige invoer. Voer een nummer in tussen 1 en 10: ");
             }
         }
     }

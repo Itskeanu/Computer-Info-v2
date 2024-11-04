@@ -1,0 +1,59 @@
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\Computer Info.exe
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\Computer Info.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\Computer Info.deps.json
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\Computer Info.runtimeconfig.json
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\Computer Info.pdb
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\Microsoft.ApplicationInsights.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\Newtonsoft.Json.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\System.CodeDom.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\System.Configuration.ConfigurationManager.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\System.Diagnostics.EventLog.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\System.DirectoryServices.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\System.Management.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\System.Security.Cryptography.Pkcs.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\System.Security.Cryptography.ProtectedData.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\System.Security.Permissions.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\System.Windows.Extensions.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\Microsoft.Management.Infrastructure.CimCmdlets.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\unix\lib\netstandard1.6\Microsoft.Management.Infrastructure.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm64\lib\netstandard1.6\microsoft.management.infrastructure.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm64\lib\netstandard1.6\microsoft.management.infrastructure.native.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm64\native\microsoft.management.infrastructure.native.unmanaged.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x64\lib\netstandard1.6\microsoft.management.infrastructure.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x64\lib\netstandard1.6\microsoft.management.infrastructure.native.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x64\native\microsoft.management.infrastructure.native.unmanaged.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x86\lib\netstandard1.6\microsoft.management.infrastructure.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x86\lib\netstandard1.6\microsoft.management.infrastructure.native.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x86\native\microsoft.management.infrastructure.native.unmanaged.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\Microsoft.PowerShell.CoreCLR.Eventing.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\linux-arm\native\libpsl-native.so
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\linux-arm64\native\libpsl-native.so
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\linux-musl-x64\native\libpsl-native.so
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\linux-x64\native\libpsl-native.so
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\osx\native\libpsl-native.dylib
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm\native\PowerShell.Core.Instrumentation.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm\native\pwrshplugin.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm64\native\PowerShell.Core.Instrumentation.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm64\native\pwrshplugin.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x64\native\PowerShell.Core.Instrumentation.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x64\native\pwrshplugin.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x86\native\PowerShell.Core.Instrumentation.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x86\native\pwrshplugin.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm\lib\net5.0\getfilesiginforedistwrapper.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm\native\getfilesiginforedist.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm64\lib\net5.0\getfilesiginforedistwrapper.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-arm64\native\getfilesiginforedist.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x64\lib\net5.0\getfilesiginforedistwrapper.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x64\native\getfilesiginforedist.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x86\lib\net5.0\getfilesiginforedistwrapper.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win-x86\native\getfilesiginforedist.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\System.DirectoryServices.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\System.Management.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\unix\lib\net8.0\System.Management.Automation.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\System.Management.Automation.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\Computer Info\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\System.Windows.Extensions.dll

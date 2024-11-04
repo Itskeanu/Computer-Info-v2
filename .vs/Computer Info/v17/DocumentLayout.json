@@ -14,8 +14,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Ori\u00EBnterend\\ICT \u0026 Software Engineering\\Opdrachten\\Computer Info\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Ori\u00EBnterend\\ICT \u0026 Software Engineering\\Opdrachten\\Computer Info\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAABkvU0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T12:52:42.348Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -43,19 +57,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Ori\u00EBnterend\\ICT \u0026 Software Engineering\\Opdrachten\\Computer Info\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Ori\u00EBnterend\\ICT \u0026 Software Engineering\\Opdrachten\\Computer Info\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T12:52:42.348Z",
-              "EditorCaption": ""
             }
           ]
         }

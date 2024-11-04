@@ -1,0 +1,28 @@
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Computer Info.exe
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Computer Info.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Computer Info.deps.json
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Computer Info.runtimeconfig.json
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Computer Info.pdb
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Microsoft.ApplicationInsights.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Microsoft.Management.Infrastructure.CimCmdlets.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\microsoft.management.infrastructure.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\microsoft.management.infrastructure.native.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Microsoft.PowerShell.CoreCLR.Eventing.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\getfilesiginforedistwrapper.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\Newtonsoft.Json.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.CodeDom.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.Configuration.ConfigurationManager.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.Diagnostics.EventLog.Messages.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.Diagnostics.EventLog.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.DirectoryServices.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.Management.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.Management.Automation.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.Security.Cryptography.Pkcs.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.Security.Cryptography.ProtectedData.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.Security.Permissions.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\System.Windows.Extensions.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\microsoft.management.infrastructure.native.unmanaged.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\PowerShell.Core.Instrumentation.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\pwrshplugin.dll
+C:\Users\keanu\OneDrive - Office 365 Fontys\Oriënterend\ICT & Software Engineering\Opdrachten\test\getfilesiginforedist.dll

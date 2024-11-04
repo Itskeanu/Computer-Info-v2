@@ -49,11 +49,36 @@ namespace Computer_Info
             Console.WriteLine("De hostname: " + resulth.Trim());
         }
 
-        static void Drive()
+        static async Task Drive()
         {
-            Console.WriteLine("Hard Drive informatie: Functie nog niet gemaakt.");
+            //Bericht dat de gegevens opgehaald worden omdat het even duurt.
+            Console.WriteLine("Drive informatie aan het verkrijgen...");
+
+            Process drive = new Process();
+
+            //Zorg dat powershell opstart
+            drive.StartInfo.FileName = "powershell.exe";
+
+            //Commando wordt uitgevoerd
+            drive.StartInfo.Arguments = "-Command Get-PhysicalDisk";
+            drive.StartInfo.RedirectStandardOutput = true;
+            drive.StartInfo.UseShellExecute = false;
+            drive.StartInfo.CreateNoWindow = true;
+
+            //start het process
+            drive.Start();
+
+            //sync de uitkomst.
+            string resulth = await drive.StandardOutput.ReadToEndAsync();
+
+            //wacht tot het process klaar is
+            await drive.WaitForExitAsync();
+
+            //Uitkomst
+            Console.WriteLine(resulth.Trim());
         }
-        private static void Main(string[] args)
+
+    private static async Task Main(string[] args)
         {
             bool exit = false;
 
@@ -63,23 +88,11 @@ namespace Computer_Info
                 Console.WriteLine("Hallo Gebruiker,");
                 Console.WriteLine("\nU hebt dit script geinstalleerd om informatie op te vragen over uw device op een makkelijkere en snellere manier.");
 
-                // Geef de keuzes weer
-                //string A = "1. Netstat (Ip Address (IPV4) / (IPV6), DNS Address, MAC Address, Subnet Mask)";
-                //string B = "2. Hard Drive informatie";
-                //string C = "3. Hostname (Naam van de laptop)";
-                //string D = "4. Test optie";
-                //string E = "9. Exit";
-
                 string[] keuze = { "\nMaak nu uw keuze:\n", "1. Netstat (Ip Address (IPV4) / (IPV6), DNS Address, MAC Address, Subnet Mask);\n", "2. Hard Drive informatie\n", "3. Hostname (Naam van de laptop\n", "9. Exit\n" };
 
                 foreach (string i in keuze)
                 {
-
-                    //Console.WriteLine("\nMaak nu uw keuze:\n");
-                    //Console.WriteLine(A + "    |    " + B);
-                    //Console.WriteLine(C + "    |    ");//D);
                     Console.WriteLine(i);
-
                 }
 
                 // Get user input
@@ -93,7 +106,7 @@ namespace Computer_Info
                         break;
 
                     case '2':
-                        Drive();
+                        await Drive();
                         break;
 
                     case '3':

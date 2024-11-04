@@ -1225,19 +1225,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\keanu\\.nuget\\packages\\": {}
+    "C:\\Users\\infod\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Oriënterend\\ICT & Software Engineering\\Opdrachten\\Computer Info\\Computer Info.csproj",
+      "projectUniqueName": "C:\\Users\\infod\\OneDrive - Office 365 Fontys\\Oriënterend\\ICT & Software Engineering\\Opdrachten\\Computer Info\\Computer Info.csproj",
       "projectName": "Computer Info",
-      "projectPath": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Oriënterend\\ICT & Software Engineering\\Opdrachten\\Computer Info\\Computer Info.csproj",
-      "packagesPath": "C:\\Users\\keanu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\keanu\\OneDrive - Office 365 Fontys\\Oriënterend\\ICT & Software Engineering\\Opdrachten\\Computer Info\\obj\\",
+      "projectPath": "C:\\Users\\infod\\OneDrive - Office 365 Fontys\\Oriënterend\\ICT & Software Engineering\\Opdrachten\\Computer Info\\Computer Info.csproj",
+      "packagesPath": "C:\\Users\\infod\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\infod\\OneDrive - Office 365 Fontys\\Oriënterend\\ICT & Software Engineering\\Opdrachten\\Computer Info\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\keanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\infod\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

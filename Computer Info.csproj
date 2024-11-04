@@ -6,6 +6,7 @@
     <RootNamespace>Computer_Info</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Computer_Info.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
